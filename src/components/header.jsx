@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
     <>
-      <div className='header'>
-       <h2>SPLI <br />TTER</h2> 
+      <div className="header">
+        <figure>
+          <img src="\images\logo.svg" alt="" />
+        </figure>
       </div>
     </>
   );
-}
+};
 
-export default Header
+export default Header;

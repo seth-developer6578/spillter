@@ -7,7 +7,9 @@ const Card = () => {
         <div className="inner-card">
           <p className="bill">Bill</p>
           <div className="selector-box">
-            <p className="dolar">$</p>
+            <figure>
+              <img src="\images\icon-dollar.svg" alt="" />
+            </figure>
             <h1 className="num-1">142.55</h1>
           </div>
           <div className="Tip">
@@ -31,6 +33,17 @@ const Card = () => {
             </div>
             <div className="custom">
               <h1>Custom</h1>
+            </div>
+          </div>
+          <div>
+            <div className="peeps">
+              <p>Number Of People</p>
+            </div>
+            <div className="selector-box-2">
+              <figure>
+                <img src="\images\icon-person.svg" alt="" />
+              </figure>
+              <p>5</p>
             </div>
           </div>
         </div>
