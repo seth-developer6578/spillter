@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  letter-spacing: 0.5rem;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 20px;
+}
+
+.Card-1 {
+  background-color: white;
+  width: 680px;
+  height: 340px;
+  margin-inline: auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.inner-card {
+  padding: 10px;
+  text-align: justify;
+}
+.bill {
+  color: hsl(184, 14%, 56%);
+}
+.selector-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(185, 41%, 84%);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 250px;
+  height: 40px;
+}
+.selector-box:hover {
+  cursor: pointer;
+}
+.dolar {
+  color: hsl(184, 14%, 56%);
+}
+.card-2 {
+  background-color: hsl(183, 100%, 15%);
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 20px;
+  gap: 5px;
+  border-radius: 20px;
+}
+.justify-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 20px;
+}
+.justify-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: justify;
+}
+.container-1 {
+  color: hsl(0, 100%, 100%);
+}
+.container-2 {
+  color: hsl(0, 100%, 100%);
+}
+.numbs {
+  color: hsl(172, 67%, 45%);
+}
+.btn-1 {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+  margin-top: 40px;
+}
+.Tip{
+  margin-block: 10px;
+}
+.Grid {
+  display: grid;
+  grid-template-areas:
+    "five ten fiften"
+    "t-five fifty custom";
+  gap: 15px;
+}
+.five {
+  grid-area: five;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  border-radius: 5px;
+}
+.ten {
+  grid-area: ten;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  border-radius: 5px;
+}
+.fiften {
+  grid-area: fiften;
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.t-five {
+  grid-area: t-five;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  border-radius: 5px;
+}
+.fifty {
+  grid-area: fifty;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  border-radius: 5px;
+}
+.custom {
+  grid-area: custom;
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(184, 14%, 56%);
+  border-radius: 5px;
+}
